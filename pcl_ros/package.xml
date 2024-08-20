@@ -29,6 +29,8 @@
 
   <build_depend>libpcl-all-dev</build_depend>
 
+  <build_export_depend>libpcl-all-dev</build_export_depend>
+
   <depend>eigen</depend>
   <depend>pcl_conversions</depend>
   <depend>rclcpp</depend>
