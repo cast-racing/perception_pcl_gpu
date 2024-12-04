@@ -25,9 +25,9 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <exec_depend>pcl_conversions</exec_depend>
+  <exec_depend>pcl_conversions_gpu</exec_depend>
   <exec_depend>pcl_msgs</exec_depend>
-  <exec_depend>pcl_ros</exec_depend>
+  <exec_depend>pcl_ros_gpu</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
