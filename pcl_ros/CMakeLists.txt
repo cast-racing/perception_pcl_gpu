@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(pcl_ros)
+project(pcl_ros_gpu)
 
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 14)
@@ -24,7 +24,7 @@ find_package(tf2_geometry_msgs REQUIRED)
 find_package(tf2_ros REQUIRED)
 
 set(dependencies
-  pcl_conversions
+  pcl_conversions_gpu
   rclcpp
   sensor_msgs
   geometry_msgs
@@ -128,7 +128,7 @@ ament_target_dependencies(pcd_to_pointcloud_lib
   rclcpp
   rclcpp_components
   sensor_msgs
-  pcl_conversions)
+  pcl_conversions_gpu)
 rclcpp_components_register_node(pcd_to_pointcloud_lib
   PLUGIN "pcl_ros::PCDPublisher"
   EXECUTABLE pcd_to_pointcloud)

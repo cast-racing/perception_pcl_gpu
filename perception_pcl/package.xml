@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>perception_pcl</name>
+  <name>perception_pcl_gpu</name>
   <version>2.4.5</version>
   <description>
   PCL (Point Cloud Library) ROS interface stack. PCL-ROS is the preferred
