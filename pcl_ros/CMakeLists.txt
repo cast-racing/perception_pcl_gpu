@@ -14,7 +14,7 @@ find_package(PCL REQUIRED QUIET COMPONENTS core common features filters io segme
 
 ## Find ROS package dependencies
 find_package(ament_cmake REQUIRED)
-find_package(pcl_conversions REQUIRED)
+find_package(pcl_conversions_gpu REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_components REQUIRED)
 find_package(sensor_msgs REQUIRED)
