@@ -7,11 +7,11 @@
   <maintainer email="your.email@example.com">Your Name</maintainer>
   <license>BSD</license>
 
-  <depend>libboost-all-dev</depend>
-  <depend>libeigen3-dev</depend>
+  <depend>boost</depend>
+  <depend>eigen</depend>
   <depend>libflann-dev</depend>
   <depend>libopenni2-dev</depend>
   <depend>libvtk9-dev</depend>
-  <depend>libqhull-dev</depend>
-  <depend>libusb-1.0-0-dev</depend>
+  <depend>libqhull</depend>
+  <depend>libusb-1.0</depend>
 </package>
