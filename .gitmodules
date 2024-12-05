@@ -1,4 +1,4 @@
-[submodule "pcl"]
-	path = pcl
+[submodule "pcl_gpu/pcl"]
+	path = pcl_gpu/pcl
 	url = https://github.com/PointCloudLibrary/pcl
-	branch = tags/pcl-1.14.1
+	branch = refs/tags/pcl-1.14.1
