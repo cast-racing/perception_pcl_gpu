@@ -14,4 +14,5 @@
   <depend>libvtk9-dev</depend>
   <depend>libqhull</depend>
   <depend>libusb-1.0</depend>
+  <depend>libqt5-core</depend>
 </package>
