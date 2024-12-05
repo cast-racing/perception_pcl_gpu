@@ -13,6 +13,6 @@
   <depend>libopenni2-dev</depend>
   <depend>libvtk9-dev</depend>
   <depend>libqhull</depend>
-  <depend>libusb-1.0</depend>
+  <depend>libusb-1.0-dev</depend>
   <depend>qtbase5-dev</depend>
 </package>
