@@ -16,15 +16,8 @@ set(CMAKE_CUDA_COMPILER ${CUDA_NVCC_EXECUTABLE})
 set(BUILD_CUDA ON)
 set(BUILD_GPU ON)
 
-# Pass options to the PCL submodule to disable its uninstall target
-set(BUILD_UNINSTALL_TARGET OFF CACHE BOOL "Disable uninstall target in PCL")
-
 # Set up PCL as an external project
 add_subdirectory(pcl)
-
-# Install the built PCL library and headers
-install(DIRECTORY pcl/include/ DESTINATION include)
-install(DIRECTORY pcl/lib/ DESTINATION lib)
 
 # Register the package
 ament_package()
