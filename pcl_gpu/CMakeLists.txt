@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.5)
 project(libpcl-all-gpu-dev)
 
+set(CMAKE_POLICY_DEFAULT_CMP0077 NEW)
+
 set(AMENT_CMAKE_UNINSTALL_TARGET OFF)
 
 # Include ament_cmake
